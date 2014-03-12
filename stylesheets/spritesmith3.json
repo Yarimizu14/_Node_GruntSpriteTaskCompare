@@ -1,0 +1,117 @@
+{
+    "icon-1": {
+        "x": 0,
+        "y": 0,
+        "width": 50,
+        "height": 50,
+        "source_image": "images/assets/icons/icon-1.png",
+        "image": "../images/spritesmith-icons.png",
+        "total_width": 50,
+        "total_height": 250,
+        "offset_x": 0,
+        "offset_y": 0,
+        "px": {
+            "x": "0px",
+            "y": "0px",
+            "offset_x": "0px",
+            "offset_y": "0px",
+            "height": "50px",
+            "width": "50px",
+            "total_height": "250px",
+            "total_width": "50px"
+        },
+        "escaped_image": "../images/spritesmith-icons.png"
+    },
+    "icon-2": {
+        "x": 0,
+        "y": 50,
+        "width": 50,
+        "height": 50,
+        "source_image": "images/assets/icons/icon-2.png",
+        "image": "../images/spritesmith-icons.png",
+        "total_width": 50,
+        "total_height": 250,
+        "offset_x": 0,
+        "offset_y": -50,
+        "px": {
+            "x": "0px",
+            "y": "50px",
+            "offset_x": "0px",
+            "offset_y": "-50px",
+            "height": "50px",
+            "width": "50px",
+            "total_height": "250px",
+            "total_width": "50px"
+        },
+        "escaped_image": "../images/spritesmith-icons.png"
+    },
+    "icon-3": {
+        "x": 0,
+        "y": 100,
+        "width": 50,
+        "height": 50,
+        "source_image": "images/assets/icons/icon-3.png",
+        "image": "../images/spritesmith-icons.png",
+        "total_width": 50,
+        "total_height": 250,
+        "offset_x": 0,
+        "offset_y": -100,
+        "px": {
+            "x": "0px",
+            "y": "100px",
+            "offset_x": "0px",
+            "offset_y": "-100px",
+            "height": "50px",
+            "width": "50px",
+            "total_height": "250px",
+            "total_width": "50px"
+        },
+        "escaped_image": "../images/spritesmith-icons.png"
+    },
+    "icon-4": {
+        "x": 0,
+        "y": 150,
+        "width": 50,
+        "height": 50,
+        "source_image": "images/assets/icons/icon-4.png",
+        "image": "../images/spritesmith-icons.png",
+        "total_width": 50,
+        "total_height": 250,
+        "offset_x": 0,
+        "offset_y": -150,
+        "px": {
+            "x": "0px",
+            "y": "150px",
+            "offset_x": "0px",
+            "offset_y": "-150px",
+            "height": "50px",
+            "width": "50px",
+            "total_height": "250px",
+            "total_width": "50px"
+        },
+        "escaped_image": "../images/spritesmith-icons.png"
+    },
+    "icon-5": {
+        "x": 0,
+        "y": 200,
+        "width": 50,
+        "height": 50,
+        "source_image": "images/assets/icons/icon-5.png",
+        "image": "../images/spritesmith-icons.png",
+        "total_width": 50,
+        "total_height": 250,
+        "offset_x": 0,
+        "offset_y": -200,
+        "px": {
+            "x": "0px",
+            "y": "200px",
+            "offset_x": "0px",
+            "offset_y": "-200px",
+            "height": "50px",
+            "width": "50px",
+            "total_height": "250px",
+            "total_width": "50px"
+        },
+        "escaped_image": "../images/spritesmith-icons.png"
+    }
+}

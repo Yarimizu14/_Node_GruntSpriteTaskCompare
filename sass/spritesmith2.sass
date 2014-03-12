@@ -1,0 +1,77 @@
+$sprite-icon-1_x = 200px;
+$sprite-icon-1_y = 0px;
+$sprite-icon-1_offset_x = -200px;
+$sprite-icon-1_offset_y = 0px;
+$sprite-icon-1_width = 50px;
+$sprite-icon-1_height = 50px;
+$sprite-icon-1_total_width = 250px;
+$sprite-icon-1_total_height = 250px;
+$sprite-icon-1_image = '../images/spritesmith-icons2.png';
+$sprite-icon-1 = 200px 0px -200px 0px 50px 50px 250px 250px '../images/spritesmith-icons2.png';
+$sprite-icon-2_x = 150px;
+$sprite-icon-2_y = 50px;
+$sprite-icon-2_offset_x = -150px;
+$sprite-icon-2_offset_y = -50px;
+$sprite-icon-2_width = 50px;
+$sprite-icon-2_height = 50px;
+$sprite-icon-2_total_width = 250px;
+$sprite-icon-2_total_height = 250px;
+$sprite-icon-2_image = '../images/spritesmith-icons2.png';
+$sprite-icon-2 = 150px 50px -150px -50px 50px 50px 250px 250px '../images/spritesmith-icons2.png';
+$sprite-icon-3_x = 100px;
+$sprite-icon-3_y = 100px;
+$sprite-icon-3_offset_x = -100px;
+$sprite-icon-3_offset_y = -100px;
+$sprite-icon-3_width = 50px;
+$sprite-icon-3_height = 50px;
+$sprite-icon-3_total_width = 250px;
+$sprite-icon-3_total_height = 250px;
+$sprite-icon-3_image = '../images/spritesmith-icons2.png';
+$sprite-icon-3 = 100px 100px -100px -100px 50px 50px 250px 250px '../images/spritesmith-icons2.png';
+$sprite-icon-4_x = 50px;
+$sprite-icon-4_y = 150px;
+$sprite-icon-4_offset_x = -50px;
+$sprite-icon-4_offset_y = -150px;
+$sprite-icon-4_width = 50px;
+$sprite-icon-4_height = 50px;
+$sprite-icon-4_total_width = 250px;
+$sprite-icon-4_total_height = 250px;
+$sprite-icon-4_image = '../images/spritesmith-icons2.png';
+$sprite-icon-4 = 50px 150px -50px -150px 50px 50px 250px 250px '../images/spritesmith-icons2.png';
+$sprite-icon-5_x = 0px;
+$sprite-icon-5_y = 200px;
+$sprite-icon-5_offset_x = 0px;
+$sprite-icon-5_offset_y = -200px;
+$sprite-icon-5_width = 50px;
+$sprite-icon-5_height = 50px;
+$sprite-icon-5_total_width = 250px;
+$sprite-icon-5_total_height = 250px;
+$sprite-icon-5_image = '../images/spritesmith-icons2.png';
+$sprite-icon-5 = 0px 200px 0px -200px 50px 50px 250px 250px '../images/spritesmith-icons2.png';
+
+spriteWidth($sprite) {
+  width: $sprite[4];
+}
+
+ {
+  width: $sprite[4];
+}
+
+spriteHeight($sprite) {
+  height: $sprite[5];
+}
+
+spritePosition($sprite) {
+  background-position: $sprite[2] $sprite[3];
+}
+
+spriteImage($sprite) {
+  background-image: url($sprite[8]);
+}
+
+sprite($sprite) {
+  spriteImage($sprite)
+  spritePosition($sprite)
+  spriteWidth($sprite)
+  spriteHeight($sprite)
+}

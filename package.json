@@ -1,0 +1,22 @@
+{
+  "name": "sprite-creation",
+  "version": "0.1.0",
+  "description": "comparing sprite generation tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "Kensei_Yarimizu",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.3",
+    "grunt-cli": "~0.1.11",
+    "grunt-spritesmith": "~1.22.0",
+    "grunt-spritesheet": "~0.1.4"
+  }
+}

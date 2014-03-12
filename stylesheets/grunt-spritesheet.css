@@ -1,0 +1,71 @@
+.grunt-spritesheet-icon-3 {
+	background-image: url(../images/grunt-spritesheet.png);
+	width: 50px;
+	height: 50px;
+	background-position: -0px -100px;
+}
+.grunt-spritesheet-icon-4 {
+	background-image: url(../images/grunt-spritesheet.png);
+	width: 50px;
+	height: 50px;
+	background-position: -0px -150px;
+}
+.grunt-spritesheet-icon-1 {
+	background-image: url(../images/grunt-spritesheet.png);
+	width: 50px;
+	height: 50px;
+	background-position: -0px -0px;
+}
+.grunt-spritesheet-icon-5 {
+	background-image: url(../images/grunt-spritesheet.png);
+	width: 50px;
+	height: 50px;
+	background-position: -0px -200px;
+}
+.grunt-spritesheet-icon-2 {
+	background-image: url(../images/grunt-spritesheet.png);
+	width: 50px;
+	height: 50px;
+	background-position: -0px -50px;
+}
+.grunt-spritesheet2-icon-3 {
+	background-image: url(../images/grunt-spritesheet2.png);
+	width: 50px;
+	height: 50px;
+	background-position: -0px -100px;
+}
+.grunt-spritesheet2-icon-4 {
+	background-image: url(../images/grunt-spritesheet2.png);
+	width: 50px;
+	height: 50px;
+	background-position: -0px -150px;
+}
+.grunt-spritesheet2-icon-1 {
+	background-image: url(../images/grunt-spritesheet2.png);
+	width: 50px;
+	height: 50px;
+	background-position: -0px -0px;
+}
+.grunt-spritesheet2-icon-5 {
+	background-image: url(../images/grunt-spritesheet2.png);
+	width: 50px;
+	height: 50px;
+	background-position: -0px -200px;
+}
+.grunt-spritesheet2-icon-2 {
+	background-image: url(../images/grunt-spritesheet2.png);
+	width: 50px;
+	height: 50px;
+	background-position: -0px -50px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   -moz-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (   -ms-min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+}

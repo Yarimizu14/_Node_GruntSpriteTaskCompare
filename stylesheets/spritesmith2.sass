@@ -1,0 +1,71 @@
+$icon-1-x: 200px
+$icon-1-y: 0px
+$icon-1-offset-x: -200px
+$icon-1-offset-y: 0px
+$icon-1-width: 50px
+$icon-1-height: 50px
+$icon-1-total-width: 250px
+$icon-1-total-height: 250px
+$icon-1-image: '../images/spritesmith-icons2.png'
+$icon-1: 200px 0px -200px 0px 50px 50px 250px 250px '../images/spritesmith-icons2.png'
+$icon-2-x: 150px
+$icon-2-y: 50px
+$icon-2-offset-x: -150px
+$icon-2-offset-y: -50px
+$icon-2-width: 50px
+$icon-2-height: 50px
+$icon-2-total-width: 250px
+$icon-2-total-height: 250px
+$icon-2-image: '../images/spritesmith-icons2.png'
+$icon-2: 150px 50px -150px -50px 50px 50px 250px 250px '../images/spritesmith-icons2.png'
+$icon-3-x: 100px
+$icon-3-y: 100px
+$icon-3-offset-x: -100px
+$icon-3-offset-y: -100px
+$icon-3-width: 50px
+$icon-3-height: 50px
+$icon-3-total-width: 250px
+$icon-3-total-height: 250px
+$icon-3-image: '../images/spritesmith-icons2.png'
+$icon-3: 100px 100px -100px -100px 50px 50px 250px 250px '../images/spritesmith-icons2.png'
+$icon-4-x: 50px
+$icon-4-y: 150px
+$icon-4-offset-x: -50px
+$icon-4-offset-y: -150px
+$icon-4-width: 50px
+$icon-4-height: 50px
+$icon-4-total-width: 250px
+$icon-4-total-height: 250px
+$icon-4-image: '../images/spritesmith-icons2.png'
+$icon-4: 50px 150px -50px -150px 50px 50px 250px 250px '../images/spritesmith-icons2.png'
+$icon-5-x: 0px
+$icon-5-y: 200px
+$icon-5-offset-x: 0px
+$icon-5-offset-y: -200px
+$icon-5-width: 50px
+$icon-5-height: 50px
+$icon-5-total-width: 250px
+$icon-5-total-height: 250px
+$icon-5-image: '../images/spritesmith-icons2.png'
+$icon-5: 0px 200px 0px -200px 50px 50px 250px 250px '../images/spritesmith-icons2.png'
+
+@mixin sprite-width($sprite)
+  width: nth($sprite, 5)
+
+@mixin sprite-height($sprite)
+  height: nth($sprite, 6)
+
+@mixin sprite-position($sprite)
+  $sprite-offset-x: nth($sprite, 3)
+  $sprite-offset-y: nth($sprite, 4)
+  background-position: $sprite-offset-x  $sprite-offset-y
+
+@mixin sprite-image($sprite)
+  $sprite-image: nth($sprite, 9)
+  background-image: url(#{$sprite-image})
+
+@mixin sprite($sprite)
+  @include sprite-image($sprite)
+  @include sprite-position($sprite)
+  @include sprite-width($sprite)
+  @include sprite-height($sprite)
